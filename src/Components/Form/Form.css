@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.form-input {
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+
+.form-input.submit {
+  cursor: pointer;
+}
