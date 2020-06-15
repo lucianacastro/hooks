@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Form.css';
-import { Cat } from 'react-kawaii'
+import IlusKawai from '../IlusKawai';
 
 
 const Form = () => {
@@ -25,7 +25,7 @@ const Form = () => {
 
   return (
     <div className='form-container'>
-      <Cat size={320} mood="excited" color="#596881"/>
+      <IlusKawai />
       <form onSubmit={sendData}>
         <input
           type="text"

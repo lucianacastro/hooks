@@ -1,0 +1,6 @@
+.ilus-kawai-wrapper svg g,
+.ilus-kawai-wrapper svg path,
+.ilus-kawai-wrapper svg ellipse {
+    transition: all 0.2s ease-in-out;
+}
+
